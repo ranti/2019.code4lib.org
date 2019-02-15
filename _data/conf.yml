@@ -59,8 +59,9 @@ scholarship-contact-email: "code4libaward@gmail.com"
 lpc-contact-email: "code4liblpc@gmail.com"
 accessibility-email: "code4lib.accessibility@gmail.com"
 # when empty, Duty Officers page will use main-conf-email
-duty-officer-email: ""
-anonymous-form: ""
+duty-officer-email: "c4l19-duty-officers@googlegroups.com"
+duty-officer-phone: "408-309-4560"
+anonymous-form: "https://c4l19.libraryexchange.org/"
 
 ###################
 # Homepage section
@@ -189,6 +190,14 @@ game-night:
     show: true
     url: https://wiki.code4lib.org/2019_Social_Activities#Game_Night.2C_Thursday.2C_February_21st
     date: "2019-02-21"
+    time: "6:30PM - 9:30PM"
+
+libtech-women:
+    show: true
+    date: "2019-02-21"
+    time: "5:30PM - 7:30PM"
+    location: "2050 Lobby Bar, DoubleTree San José"
+    hashtag: libtechwomen
 
 reception:
     show: true
@@ -198,6 +207,7 @@ karaoke-night:
     show: true
     url: https://wiki.code4lib.org/2019_Social_Activities#Karaoke_Night.2C_Thursday.2C_February_21st
     date: "2019-02-21"
+    time: "TBA"
 
 self-event:
     show: true
