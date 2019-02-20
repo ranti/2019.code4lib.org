@@ -4,7 +4,6 @@
 year: 2019
 hashtag: 'c4l19'
 location: 'San José, California'
-captioning-url: ""
 hero-image-alt: "a collage of several San José landmarks"
 
 search: false
@@ -16,12 +15,17 @@ program-nav-links: true
 days:
   - weekday: Tuesday
     date: February 19th
+    # date in a form that JS Date() constructor understands
+    date-data: 2019-02-19T23:59
   - weekday: Wednesday
     date: February 20th
+    date-data: 2019-02-20T23:59
   - weekday: Thursday
     date: February 21st
+    date-data: 2019-02-21T23:59
   - weekday: Friday
     date: February 22nd
+    date-data: 2019-02-22T23:59
 
 #############################
 # Venue Information
@@ -58,7 +62,7 @@ sponsor-contact-email: "code4lib.sponsorship@gmail.com"
 scholarship-contact-email: "code4libaward@gmail.com"
 lpc-contact-email: "code4liblpc@gmail.com"
 accessibility-email: "code4lib.accessibility@gmail.com"
-# when empty, Duty Officers page will use main-conf-email
+# when empty, community support volunteers page will use main-conf-email
 duty-officer-email: "c4l19-duty-officers@googlegroups.com"
 duty-officer-phone: "408-309-4560"
 anonymous-form: "https://c4l19.libraryexchange.org/"
@@ -72,7 +76,7 @@ anonymous-form: "https://c4l19.libraryexchange.org/"
 # - post:   for after the conference is close (NOTE: we never made a template for 2018)
 #
 ###########
-homepage-display: pre
+homepage-display: peri
 
 ###########
 # Sponsors
@@ -168,7 +172,7 @@ workshop-registration:
 
 # "show" just means display on home page, "open" means people can register
 conference-registration:
-  show: true
+  show: false
   url: http://www.cvent.com/d/ybq5dx/4W
   start-date: "2018-12-05"
   end-date: Null
@@ -228,7 +232,7 @@ volunteer-dutyoff:
 
 # for volunteers during conference like MCs, mic-minders, etc.
 volunteer-onsite:
-  show: true
+  show: false
   url: https://wiki.code4lib.org/2019_Conference_Volunteers
   end-date: "2019-02-22"
 
@@ -236,14 +240,18 @@ volunteer-onsite:
 # Misc
 ###########
 livestream:
-  show: false
-  url: "https://www.youtube.com/playlist?list=PLw-ls5JXzeNZc3FZMem-uLCPgiTM9IzKg"
+  show: true
+  url: "https://www.youtube.com/code4lib"
 
 slides:
-  show: false
+  show: true
   url: "https://osf.io/view/c4l19/"
   contact: "Roy Tennant"
   email: "roytennant@gmail.com"
+
+closed-captioning:
+  url: "https://2020archive.1capapp.com/event/cod4lib"
+  show: true
 
 ################
 # Scholarships
